@@ -4,7 +4,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINE =
-  "My fitness tracker says I burned 812 calories today: 12 from walking, 800 from anxiously refreshing my bank balance.";
+  "My fitness tracker says I burned 812 calories today: 12 from walking, 800 from refreshing my bank balance in a panic.";
 const MAX_CHARS = 140;
 
 if (LINE.length < 1 || LINE.length > MAX_CHARS) {
